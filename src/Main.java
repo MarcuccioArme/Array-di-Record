@@ -7,11 +7,11 @@ public class Main {
 
         System.out.println("Quanti record vuoi inserire?");
         System.out.print("Quantità: ");
-        int quantità = scanner.nextInt();
+        int quantity = scanner.nextInt();
 
-        Persona[] persone = new Persona[quantità];
+        Persona[] persone = new Persona[quantity];
 
-        for (int i=0; i<quantità; i++) {
+        for (int i=0; i<quantity; i++) {
 
             System.out.print("\nInserisci il nome: ");
             String nome = scanner.next();
